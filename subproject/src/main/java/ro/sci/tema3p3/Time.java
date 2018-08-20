@@ -27,7 +27,7 @@ public class Time {
      */
     public static boolean checkIfValid(int h, int m) {
         boolean v = true;
-        if (h < 0 || h > 24 || m < 0 || m > 60) {
+        if (h < 0 || h > 23 || m < 0 || m > 59) {
             v = false;
         }
         return v;
